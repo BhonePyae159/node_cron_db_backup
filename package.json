@@ -1,0 +1,22 @@
+{
+  "name": "node_cron_db_backup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Bhone Pyae Aung",
+  "license": "ISC",
+  "description": "A Node.js script for daily MySQL database backups, retaining the last 7 days of backups, and deleting older backups. Logs all activities.",
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "mysql2": "^3.11.3",
+    "node-cron": "^3.0.3"
+  }
+}
