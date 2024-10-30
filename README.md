@@ -47,7 +47,7 @@ DB_PORT=3306
 DB_NAME=ohm
 BACKUP_DIRECTORY=./backups
 ROLLING_DAYS=7
-
+```
 
 - `DB_HOST`: The hostname of the MySQL server.
 - `DB_USERNAME`: The username to connect to the MySQL server.
