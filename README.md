@@ -20,7 +20,8 @@ DB_PASSWORD=password
 DB_PORT=dbport
 DB_NAME=dbname
 BACKUP_DIRECTORY=./backups
-ROLLING_DAYS=7```
+ROLLING_DAYS=7
+```
 
 
 # node_cron_db_backup
