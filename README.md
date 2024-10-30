@@ -22,13 +22,7 @@ DB_NAME=dbname
 BACKUP_DIRECTORY=./backups
 ROLLING_DAYS=7```
 
-Sure, here is the complete 
 
-README.md
-
- file in the requested format:
-
-```markdown
 # node_cron_db_backup
 
 A Node.js script for daily MySQL database backups, retaining the last 7 days of backups, and deleting older backups. Logs all activities.
