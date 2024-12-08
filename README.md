@@ -16,9 +16,9 @@ The script uses a `.env` file for configuration. Below is an example of the requ
 ```properties
 DB_HOST=localhost
 DB_USERNAME=root
-DB_PASSWORD=asd123!
+DB_PASSWORD=password
 DB_PORT=3306
-DB_NAME=ohm
+DB_NAME=test
 BACKUP_DIRECTORY=./backups
 ROLLING_DAYS=7
 ```
